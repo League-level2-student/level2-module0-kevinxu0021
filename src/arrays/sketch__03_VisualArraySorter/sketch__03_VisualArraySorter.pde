@@ -27,7 +27,7 @@ color(0,0,255);
   //   the width is 1 (one)
   //   the height is negative the value of the element at the current index of the array
 for(int i = 0; i < numbers.length; i++){
- rect(i, height, 1, -i); 
+ rect(i, height, 1, -numbers[i]); 
 }
 
   //9. call the stepSort method
